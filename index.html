@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>滿吧餐酒館</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>滿吧餐酒館</h1>
+    <div class="menu-selector-container">
+      <select id="menu-selector">
+        <option value="beer" selected>啤酒</option>
+        <option value="draft">生啤酒</option>
+        <option value="cocktail">調酒</option>
+        <option value="soft-drink">飲料</option>
+        <option value="sawa">沙瓦</option>
+        <option value="skewers">串燒</option>
+        <option value="fried">炸物</option>
+        <option value="single-whisky">單杯威士忌</option>
+        <option value="whisky">威士忌</option>
+      </select>
+    </div>
+    <!-- 搜尋欄 -->
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="搜尋商品...">
+      <button id="search-button">搜尋</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="menu-container">
+      <!-- 動態生成分類內容 -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
